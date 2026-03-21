@@ -30,7 +30,7 @@ async function requestOtp(type, target) {
         support_link: "",
         year: new Date().getFullYear(),
     });
-    console.log(code);
+    console.log(`OTP for: ${target}. CODE: ${code}`);
     return code;
 }
 async function verifyOtp(target, code) {
