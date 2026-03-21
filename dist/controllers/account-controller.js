@@ -141,7 +141,7 @@ exports.requestAccountOtp = (0, route_handler_1.asyncRoute)(async (req, res) => 
     });
     if (!account)
         return res.status(404).json({ message: "Account not found" });
-    const [password, secret] = parsed.data.password.split("/");
+    const [password] = parsed.data.password.split("/");
     const isMatch = (0, account_1.matchPassword)(account.password, password);
     if (!isMatch)
         return res.status(401).json({ message: "Wrong password" });
