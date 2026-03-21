@@ -38,6 +38,7 @@ const logger_1 = __importStar(require("../lib/logger"));
 const isProd = process.env.NODE_ENV === "production";
 const errorHandler = (err, req, res, next) => {
     const status = err.statusCode || err.status || 500;
+    console.log(err);
     const logMessage = status === 500 ? "Server error:" : err.message || "Request error:";
     logger_1.default.error(logMessage, (0, logger_1.structureError)(err));
     res.status(status).json({
