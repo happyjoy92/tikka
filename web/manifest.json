@@ -1,4 +1,5 @@
 {
+  "version": "2.8.3",
   "name": "Tikka",
   "short_name": "Tikka",
   "icons": [
@@ -15,5 +16,6 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "orientation": "portrait-primary"
 }
