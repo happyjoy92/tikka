@@ -22,6 +22,7 @@ async function requestOtp(type, target) {
     if (type !== "email")
         return code;
     const html = await promises_1.default.readFile(path_1.default.join(process.cwd(), "templates", "otp.html"), "utf8");
+    console.log(html);
     const rendered = ejs_1.default.render(html, {
         logo_url: "https://tikka.app/assets/tikka-logo-square.png",
         message: "Use the code below to verify your identity and continue.",
