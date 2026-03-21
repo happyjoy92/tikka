@@ -1,0 +1,42 @@
+[
+    {
+        "name": {
+            "first": "Camille",
+            "last": "Dubois"
+        },
+        "role": "specialist",
+        "avatar": "camille_dubois"
+    },
+    {
+        "name": {
+            "first": "Thomas",
+            "last": "Laurent"
+        },
+        "role": "customer",
+        "avatar": "thomas_laurent"
+    },
+    {
+        "name": {
+            "first": "Amina",
+            "last": "Benali"
+        },
+        "role": "account",
+        "avatar": "amina_benali"
+    },
+    {
+        "name": {
+            "first": "Julien",
+            "last": "Moreau"
+        },
+        "role": "payments",
+        "avatar": "julien_moreau"
+    },
+    {
+        "name": {
+            "first": "Sofia",
+            "last": "Martins"
+        },
+        "role": "care",
+        "avatar": "sofia_martins"
+    }
+]

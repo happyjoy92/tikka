@@ -1,0 +1,809 @@
+[
+    {
+        "name": { "long": "Al Khaliji France", "short": "Al Khaliji" },
+        "logo": "https://thebanks.eu/img/logos/Al_Khaliji.png",
+        "colorTheme": "#d7d6d6"
+    },
+    {
+        "name": { "long": "Allianz banque", "short": "Allianz" },
+        "logo": "https://thebanks.eu/img/logos/Allianz.png",
+        "colorTheme": "#355aa0"
+    },
+    {
+        "name": {
+            "long": "American Express carte France",
+            "short": "American Express"
+        },
+        "logo": "https://thebanks.eu/img/logos/American_Express.png",
+        "colorTheme": "#3189d9"
+    },
+    {
+        "name": { "long": "Arkéa banking services", "short": "Arkea" },
+        "logo": "https://thebanks.eu/img/logos/Arkea.png",
+        "colorTheme": "#eec6c7"
+    },
+    {
+        "name": {
+            "long": "Arkéa banque entreprises et institutionnels",
+            "short": "Arkea"
+        },
+        "logo": "https://thebanks.eu/img/logos/Arkea.png",
+        "colorTheme": "#eec6c7"
+    },
+    {
+        "name": { "long": "ARKEA DIRECT BANK", "short": "Arkea" },
+        "logo": "https://thebanks.eu/img/logos/Arkea.png",
+        "colorTheme": "#eec6c7"
+    },
+    {
+        "name": {
+            "long": "Attijariwafa bank europe",
+            "short": "Attijariwafa Bank"
+        },
+        "logo": "https://thebanks.eu/img/logos/Attijariwafa_Bank.png",
+        "colorTheme": "#e9ded2"
+    },
+    {
+        "name": { "long": "Axa banque", "short": "AXA Bank" },
+        "logo": "https://thebanks.eu/img/logos/AXA_Bank.gif",
+        "colorTheme": "#eeeef4"
+    },
+    {
+        "name": { "long": "Axa banque financement", "short": "AXA Bank" },
+        "logo": "https://thebanks.eu/img/logos/AXA_Bank.gif",
+        "colorTheme": "#eeeef4"
+    },
+    {
+        "name": { "long": "Bank Audi France", "short": "Bank Audi" },
+        "logo": "https://thebanks.eu/img/logos/Bank_Audi.png",
+        "colorTheme": "#384954"
+    },
+    {
+        "name": {
+            "long": "Banque Banorient France",
+            "short": "Banque Banorient France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Banorient_France.png",
+        "colorTheme": "#e0e2e4"
+    },
+    {
+        "name": { "long": "Banque BCP", "short": "Banque BCP" },
+        "logo": "https://thebanks.eu/img/logos/Banque_BCP.png",
+        "colorTheme": "#fef9fb"
+    },
+    {
+        "name": { "long": "Banque BIA", "short": "Banque BIA" },
+        "logo": "https://thebanks.eu/img/logos/Banque_BIA.png",
+        "colorTheme": "#3ba4b2"
+    },
+    {
+        "name": {
+            "long": "Banque cantonale de Genève (France) S.A.",
+            "short": "Banque Cantonale de Geneve"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Cantonale_de_Geneve.png",
+        "colorTheme": "#c3bcbb"
+    },
+    {
+        "name": {
+            "long": "Banque Chaabi du Maroc",
+            "short": "Banque Chaabi du Maroc"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Chaabi_du_Maroc.png",
+        "colorTheme": "#f7e5d3"
+    },
+    {
+        "name": { "long": "Banque Chabrières", "short": "Banque Chabrieres" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Chabrieres.png",
+        "colorTheme": "#e4d5d6"
+    },
+    {
+        "name": { "long": "Banque Chalus", "short": "Banque Chalus" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Chalus.gif",
+        "colorTheme": "#625e4e"
+    },
+    {
+        "name": { "long": "Banque CIC Est", "short": "Banque CIC" },
+        "logo": "https://thebanks.eu/img/logos/Banque_CIC.png",
+        "colorTheme": "#3c8b92"
+    },
+    {
+        "name": { "long": "Banque CIC Nord Ouest", "short": "Banque CIC" },
+        "logo": "https://thebanks.eu/img/logos/Banque_CIC.png",
+        "colorTheme": "#3c8b92"
+    },
+    {
+        "name": { "long": "Banque CIC Ouest", "short": "Banque CIC" },
+        "logo": "https://thebanks.eu/img/logos/Banque_CIC.png",
+        "colorTheme": "#3c8b92"
+    },
+    {
+        "name": { "long": "Banque CIC Sud Ouest", "short": "Banque CIC" },
+        "logo": "https://thebanks.eu/img/logos/Banque_CIC.png",
+        "colorTheme": "#3c8b92"
+    },
+    {
+        "name": { "long": "Banque d'escompte", "short": "Banque dEscompte" },
+        "logo": "https://thebanks.eu/img/logos/Banque_dEscompte.png",
+        "colorTheme": "#aa6a94"
+    },
+    {
+        "name": { "long": "Banque de Savoie", "short": "Banque de Savoie" },
+        "logo": "https://thebanks.eu/img/logos/Banque_de_Savoie.png",
+        "colorTheme": "#413d47"
+    },
+    {
+        "name": { "long": "Banque Delubac et Cie", "short": "Banque Delubac" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Delubac.gif",
+        "colorTheme": "#f0f1f0"
+    },
+    {
+        "name": {
+            "long": "Banque du bâtiment et des travaux publics - BTP banque",
+            "short": "BTP Banque"
+        },
+        "logo": "https://thebanks.eu/img/logos/BTP_Banque.png",
+        "colorTheme": "#e4e6e7"
+    },
+    {
+        "name": { "long": "Banque Edel SA", "short": "Banque Edel" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Edel.png",
+        "colorTheme": "#c7d9e6"
+    },
+    {
+        "name": {
+            "long": "Banque Européenne du Crédit Mutuel",
+            "short": "Banque Europeenne du Credit Mutuel"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Europeenne_du_Credit_Mutuel.png",
+        "colorTheme": "#dfd8de"
+    },
+    {
+        "name": {
+            "long": "Banque fédérative du crédit mutuel",
+            "short": "Banque Federative du Credit Mutuel"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Federative_du_Credit_Mutuel.png",
+        "colorTheme": "#d5d7df"
+    },
+    {
+        "name": { "long": "BANQUE FIDUCIAL", "short": "Banque Fiducial" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Fiducial.png",
+        "colorTheme": "#5c1e2e"
+    },
+    {
+        "name": {
+            "long": "Banque Française Commerciale Océan Indien",
+            "short": "Banque Francaise Commerciale Ocean Indien"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Francaise_Commerciale_Ocean_Indien.jpg",
+        "colorTheme": "#bc7c89"
+    },
+    {
+        "name": { "long": "Banque Hottinguer", "short": "Bank Hottinger" },
+        "logo": "https://thebanks.eu/img/logos/Bank_Hottinger.png",
+        "colorTheme": "#e4e8f4"
+    },
+    {
+        "name": {
+            "long": "Banque internationale de commerce - BRED",
+            "short": "BIC BRED"
+        },
+        "logo": "https://thebanks.eu/img/logos/BIC_BRED.png",
+        "colorTheme": "#dbdeeb"
+    },
+    {
+        "name": {
+            "long": "Banque Michel Inchauspé - BAMI",
+            "short": "Banque Michel Inchauspe"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Michel_Inchauspe.png",
+        "colorTheme": "#d3e2f0"
+    },
+    {
+        "name": { "long": "Banque Neuflize OBC", "short": "Banque Neuflize" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Neuflize.gif",
+        "colorTheme": "#e1e2e2"
+    },
+    {
+        "name": { "long": "Banque Nomura France", "short": "Nomura Bank" },
+        "logo": "https://thebanks.eu/img/logos/Nomura_Bank.png",
+        "colorTheme": "#f1bec0"
+    },
+    {
+        "name": { "long": "Banque Palatine", "short": "Banque Palatine" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Palatine.png",
+        "colorTheme": "#3f3f3f"
+    },
+    {
+        "name": { "long": "Banque Pouyanne", "short": "Banque Pouyanne" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Pouyanne.png",
+        "colorTheme": "#3b3c3c"
+    },
+    {
+        "name": { "long": "BANQUE RICHELIEU FRANCE", "short": "Banque Richelieu" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Richelieu.png",
+        "colorTheme": "#cecece"
+    },
+    {
+        "name": { "long": "Banque Saint-Olive", "short": "Banque Saint Olive" },
+        "logo": "https://thebanks.eu/img/logos/Banque_Saint_Olive.png",
+        "colorTheme": "#f2f2f2"
+    },
+    {
+        "name": { "long": "Banque SBA", "short": "Banque SBA" },
+        "logo": "https://thebanks.eu/img/logos/Banque_SBA.gif",
+        "colorTheme": "#dcdbdd"
+    },
+    {
+        "name": { "long": "BANQUE STELLANTIS FRANCE", "short": "Stellantis Bank" },
+        "logo": "https://thebanks.eu/img/logos/Stellantis_Bank.png",
+        "colorTheme": "#eff1f6"
+    },
+    {
+        "name": {
+            "long": "Banque Transatlantique S.A.",
+            "short": "Banque Transatlantique"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banque_Transatlantique.png",
+        "colorTheme": "#dee8eb"
+    },
+    {
+        "name": { "long": "Bforbank", "short": "Bforbank" },
+        "logo": "https://thebanks.eu/img/logos/Bforbank.png",
+        "colorTheme": "#635953"
+    },
+    {
+        "name": { "long": "BNP PARIBAS ANTILLES-GUYANE", "short": "BNP Paribas" },
+        "logo": "https://thebanks.eu/img/logos/BNP_Paribas.png",
+        "colorTheme": "#e2e7e5"
+    },
+    {
+        "name": { "long": "BNP Paribas Lease Group", "short": "BNP Paribas Lease" },
+        "logo": "https://thebanks.eu/img/logos/BNP_Paribas_Lease.jpg",
+        "colorTheme": "#cecbcc"
+    },
+    {
+        "name": {
+            "long": "BNP Paribas Personal Finance",
+            "short": "BNP Paribas Personal Finance"
+        },
+        "logo": "https://thebanks.eu/img/logos/BNP_Paribas_Personal_Finance.png",
+        "colorTheme": "#dfdbdc"
+    },
+    {
+        "name": { "long": "BNP Paribas Réunion", "short": "BNP Paribas" },
+        "logo": "https://thebanks.eu/img/logos/BNP_Paribas.png",
+        "colorTheme": "#e2e7e5"
+    },
+    {
+        "name": { "long": "Boursorama", "short": "Boursorama Banque" },
+        "logo": "https://thebanks.eu/img/logos/Boursorama_Banque.png",
+        "colorTheme": "#f7e2ef"
+    },
+    {
+        "name": { "long": "BPCE", "short": "BPCE" },
+        "logo": "https://thebanks.eu/img/logos/BPCE.gif",
+        "colorTheme": "#2b2b2b"
+    },
+    {
+        "name": {
+            "long": "BPCE Payment Services",
+            "short": "BPCE Payment Services"
+        },
+        "logo": "https://thebanks.eu/img/logos/BPCE_Payment_Services.png",
+        "colorTheme": "#dbd9db"
+    },
+    {
+        "name": { "long": "Bpifrance", "short": "Bpifinance" },
+        "logo": "https://thebanks.eu/img/logos/Bpifinance.png",
+        "colorTheme": "#faf3d8"
+    },
+    {
+        "name": { "long": "BRED Cofilease", "short": "BRED" },
+        "logo": "https://thebanks.eu/img/logos/BRED.png",
+        "colorTheme": "#17398b"
+    },
+    {
+        "name": { "long": "BRED Gestion", "short": "BRED" },
+        "logo": "https://thebanks.eu/img/logos/BRED.png",
+        "colorTheme": "#17398b"
+    },
+    {
+        "name": { "long": "CA Consumer Finance", "short": "CA Consumer Finance" },
+        "logo": "https://thebanks.eu/img/logos/CA_Consumer_Finance.png",
+        "colorTheme": "#e7f0ee"
+    },
+    {
+        "name": { "long": "CA INDOSUEZ", "short": "CA Indosuez Wealth" },
+        "logo": "https://thebanks.eu/img/logos/CA_Indosuez_Wealth.png",
+        "colorTheme": "#8c7c6c"
+    },
+    {
+        "name": { "long": "CACEIS Bank", "short": "CACEIS Bank" },
+        "logo": "https://thebanks.eu/img/logos/CACEIS_Bank.png",
+        "colorTheme": "#dcced3"
+    },
+    {
+        "name": {
+            "long": "Caisse centrale du crédit immobilier de France-3CIF",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Caisse des dépôts et consignations - fonds d'épargne",
+            "short": "Caisse des Depots et Consignations"
+        },
+        "logo": "https://thebanks.eu/img/logos/Caisse_des_Depots_et_Consignations.png",
+        "colorTheme": "#e82a31"
+    },
+    {
+        "name": {
+            "long": "Caisse des dépôts et consignations - section générale",
+            "short": "Caisse des Depots et Consignations"
+        },
+        "logo": "https://thebanks.eu/img/logos/Caisse_des_Depots_et_Consignations.png",
+        "colorTheme": "#e82a31"
+    },
+    {
+        "name": { "long": "Carrefour banque", "short": "Carrefour Banque" },
+        "logo": "https://thebanks.eu/img/logos/Carrefour_Banque.png",
+        "colorTheme": "#d6e7f0"
+    },
+    {
+        "name": { "long": "CCF", "short": "Banque des Caraibes" },
+        "logo": "https://thebanks.eu/img/logos/Banque_des_Caraibes.png",
+        "colorTheme": "#d8dcdf"
+    },
+    {
+        "name": {
+            "long": "Compagnie générale de crédit aux particuliers - Crédipar",
+            "short": "Credipar"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credipar.png",
+        "colorTheme": "#743a64"
+    },
+    {
+        "name": {
+            "long": "Confédération Nationale du Crédit Mutuel",
+            "short": "Credit Mutuel"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Mutuel.png",
+        "colorTheme": "#e7e1ea"
+    },
+    {
+        "name": { "long": "Créatis", "short": "Creatis" },
+        "logo": "https://thebanks.eu/img/logos/Creatis.png",
+        "colorTheme": "#19254a"
+    },
+    {
+        "name": {
+            "long": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK",
+            "short": "Credit Agricole CIB"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Agricole_CIB.png",
+        "colorTheme": "#edf4f3"
+    },
+    {
+        "name": {
+            "long": "Crédit Foncier de France",
+            "short": "Credit Foncier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Foncier_de_France.gif",
+        "colorTheme": "#78aab2"
+    },
+    {
+        "name": {
+            "long": "Crédit foncier et communal d'Alsace et de Lorraine-Banque",
+            "short": "Credit Foncier et Communal dAlsace"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Foncier_et_Communal_dAlsace.png",
+        "colorTheme": "#e8e3e4"
+    },
+    {
+        "name": {
+            "long": "Crédit immobilier de France - Ouest",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit immobilier de France Bretagne",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit Immobilier de France Centre Est",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit Immobilier de France Développement",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit immobilier de France Ile de France",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit immobilier de France Méditerranée (2ème du nom)",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit immobilier de France Nord",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit immobilier de France Rhône Alpes Auvergne",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit immobilier de France Sud Ouest",
+            "short": "Credit Immobilier de France"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Immobilier_de_France.png",
+        "colorTheme": "#f8f9fa"
+    },
+    {
+        "name": {
+            "long": "Crédit industriel et commercial - CIC",
+            "short": "Credit Industriel et Commercial"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Industriel_et_Commercial.png",
+        "colorTheme": "#6b97b1"
+    },
+    {
+        "name": { "long": "CREDIT LYONNAIS (LCL)", "short": "Credit Lyonnais" },
+        "logo": "https://thebanks.eu/img/logos/Credit_Lyonnais.png",
+        "colorTheme": "#3b417a"
+    },
+    {
+        "name": {
+            "long": "CRÉDIT MOBILIER DE MONACO",
+            "short": "Credit Mobilier de Monaco"
+        },
+        "logo": "https://thebanks.eu/img/logos/Credit_Mobilier_de_Monaco.png",
+        "colorTheme": "#f4f5f5"
+    },
+    {
+        "name": {
+            "long": "Edmond de Rothschild (France)",
+            "short": "Edmond de Rothschild"
+        },
+        "logo": "https://thebanks.eu/img/logos/Edmond_de_Rothschild.gif",
+        "colorTheme": "#66799f"
+    },
+    {
+        "name": { "long": "Euronext paris s.a.", "short": "Euronext" },
+        "logo": "https://thebanks.eu/img/logos/Euronext.jpg",
+        "colorTheme": "#dceeeb"
+    },
+    {
+        "name": { "long": "FACTOFRANCE", "short": "FACTOFRANCE" },
+        "logo": "https://thebanks.eu/img/logos/FACTOFRANCE.png",
+        "colorTheme": "#e1e3ed"
+    },
+    {
+        "name": { "long": "FEDERAL FINANCE", "short": "Federal Finance" },
+        "logo": "https://thebanks.eu/img/logos/Federal_Finance.png",
+        "colorTheme": "#d1ced0"
+    },
+    {
+        "name": { "long": "FLOA", "short": "FLOA Bank" },
+        "logo": "https://thebanks.eu/img/logos/FLOA_Bank.png",
+        "colorTheme": "#26b2f9"
+    },
+    {
+        "name": { "long": "Fransabank France S.A.", "short": "Fransabank" },
+        "logo": "https://thebanks.eu/img/logos/Fransabank.png",
+        "colorTheme": "#2864b1"
+    },
+    {
+        "name": { "long": "GRESHAM Banque", "short": "GRESHAM Banque" },
+        "logo": "https://thebanks.eu/img/logos/GRESHAM_Banque.png",
+        "colorTheme": "#f7f6f3"
+    },
+    {
+        "name": { "long": "HOIST FINANCE AB", "short": "Hoist Finance" },
+        "logo": "https://thebanks.eu/img/logos/Hoist_Finance.png",
+        "colorTheme": "#892d70"
+    },
+    {
+        "name": { "long": "HSBC Continental Europe", "short": "HSBC France" },
+        "logo": "https://thebanks.eu/img/logos/HSBC_France.png",
+        "colorTheme": "#eabcbf"
+    },
+    {
+        "name": { "long": "KLARNA BANK AB", "short": "Klarna" },
+        "logo": "https://thebanks.eu/img/logos/Klarna.png",
+        "colorTheme": "#4a2f4a"
+    },
+    {
+        "name": {
+            "long": "Komatsu financial France",
+            "short": "Komatsu Financial"
+        },
+        "logo": "https://thebanks.eu/img/logos/Komatsu_Financial.png",
+        "colorTheme": "#a3acc5"
+    },
+    {
+        "name": { "long": "La Banque Postale", "short": "La Banque Postale" },
+        "logo": "https://thebanks.eu/img/logos/La_Banque_Postale.png",
+        "colorTheme": "#bed9ee"
+    },
+    {
+        "name": { "long": "Lazard Frères Banque", "short": "Lazard Banque" },
+        "logo": "https://thebanks.eu/img/logos/Lazard_Banque.png",
+        "colorTheme": "#202b3b"
+    },
+    {
+        "name": { "long": "Louvre Banque Privée", "short": "Louvre Banque Privee" },
+        "logo": "https://thebanks.eu/img/logos/Louvre_Banque_Privee.png",
+        "colorTheme": "#5e2f44"
+    },
+    {
+        "name": { "long": "Lyonnaise de banque", "short": "Lyonnaise de Banque" },
+        "logo": "https://thebanks.eu/img/logos/Lyonnaise_de_Banque.jpg",
+        "colorTheme": "#6c9a9c"
+    },
+    {
+        "name": { "long": "Ma French Bank", "short": "Ma French Bank" },
+        "logo": "https://thebanks.eu/img/logos/Ma_French_Bank.png",
+        "colorTheme": "#388f96"
+    },
+    {
+        "name": { "long": "MEMO BANK", "short": "MEMO Bank" },
+        "logo": "https://thebanks.eu/img/logos/MEMO_Bank.png",
+        "colorTheme": "#e9e9e9"
+    },
+    {
+        "name": { "long": "Milleis Banque", "short": "Milleis Banque" },
+        "logo": "https://thebanks.eu/img/logos/Milleis_Banque.png",
+        "colorTheme": "#525251"
+    },
+    {
+        "name": { "long": "Mizuho Bank Europe NV", "short": "Mizuho Bank" },
+        "logo": "https://thebanks.eu/img/logos/Mizuho_Bank.jpg",
+        "colorTheme": "#53378e"
+    },
+    {
+        "name": { "long": "MMB SCF", "short": "My Money Bank" },
+        "logo": "https://thebanks.eu/img/logos/My_Money_Bank.png",
+        "colorTheme": "#047fae"
+    },
+    {
+        "name": { "long": "Monabanq.", "short": "Monabanq" },
+        "logo": "https://thebanks.eu/img/logos/Monabanq.png",
+        "colorTheme": "#42452e"
+    },
+    {
+        "name": {
+            "long": "Monte Paschi banque S.A.",
+            "short": "Banca Monte dei Paschi di Siena"
+        },
+        "logo": "https://thebanks.eu/img/logos/Banca_Monte_dei_Paschi_di_Siena.png",
+        "colorTheme": "#d7d2d4"
+    },
+    {
+        "name": { "long": "My Money Bank", "short": "My Money Bank" },
+        "logo": "https://thebanks.eu/img/logos/My_Money_Bank.png",
+        "colorTheme": "#047fae"
+    },
+    {
+        "name": {
+            "long": "National Australia Bank Europe S.A",
+            "short": "National Australia Bank"
+        },
+        "logo": "https://thebanks.eu/img/logos/National_Australia_Bank.png",
+        "colorTheme": "#d4c0c1"
+    },
+    {
+        "name": { "long": "Natixis", "short": "NATIXIS" },
+        "logo": "https://thebanks.eu/img/logos/NATIXIS.jpg",
+        "colorTheme": "#dbdbdb"
+    },
+    {
+        "name": { "long": "Natixis TradEx Solutions", "short": "NATIXIS" },
+        "logo": "https://thebanks.eu/img/logos/NATIXIS.jpg",
+        "colorTheme": "#dbdbdb"
+    },
+    {
+        "name": { "long": "NATIXIS WEALTH MANAGEMENT", "short": "NATIXIS" },
+        "logo": "https://thebanks.eu/img/logos/NATIXIS.jpg",
+        "colorTheme": "#dbdbdb"
+    },
+    {
+        "name": { "long": "Nord Financement", "short": "Nord Financement" },
+        "logo": "https://thebanks.eu/img/logos/Nord_Financement.jpg",
+        "colorTheme": "#fde2e4"
+    },
+    {
+        "name": { "long": "Oddo BHF SCA", "short": "ODDO BHF" },
+        "logo": "https://thebanks.eu/img/logos/ODDO_BHF.png",
+        "colorTheme": "#ecd4d4"
+    },
+    {
+        "name": { "long": "ONEY BANK", "short": "Oney Bank" },
+        "logo": "https://thebanks.eu/img/logos/Oney_Bank.png",
+        "colorTheme": "#9fcc3f"
+    },
+    {
+        "name": { "long": "ORANGE BANK", "short": "Orange Bank" },
+        "logo": "https://thebanks.eu/img/logos/Orange_Bank.png",
+        "colorTheme": "#bf9272"
+    },
+    {
+        "name": { "long": "RCI Banque", "short": "RCI Banque" },
+        "logo": "https://thebanks.eu/img/logos/RCI_Banque.png",
+        "colorTheme": "#889494"
+    },
+    {
+        "name": {
+            "long": "Rothschild Martin Maurel",
+            "short": "Rothschild Martin Maurel"
+        },
+        "logo": "https://thebanks.eu/img/logos/Rothschild_Martin_Maurel.jpg",
+        "colorTheme": "#a8b1be"
+    },
+    {
+        "name": { "long": "ROYAL BANK OF CANADA", "short": "Royal Bank of Canada" },
+        "logo": "https://thebanks.eu/img/logos/Royal_Bank_of_Canada.png",
+        "colorTheme": "#256faa"
+    },
+    {
+        "name": {
+            "long": "SANTANDER CONSUMER FINANCE, S.A.",
+            "short": "Santander Consumer Bank"
+        },
+        "logo": "https://thebanks.eu/img/logos/Santander_Consumer_Bank.gif",
+        "colorTheme": "#ff2525"
+    },
+    {
+        "name": { "long": "Saxo Bank A/S", "short": "Saxo Bank" },
+        "logo": "https://thebanks.eu/img/logos/Saxo_Bank.png",
+        "colorTheme": "#a2a7af"
+    },
+    {
+        "name": { "long": "SFIL S.A.", "short": "Societe de financement local" },
+        "logo": "https://thebanks.eu/img/logos/Societe_de_financement_local.png",
+        "colorTheme": "#e2eae9"
+    },
+    {
+        "name": {
+            "long": "Société de banque et d'expansion - S.B.E. (2ème du nom)",
+            "short": "Societe de Banque et dExpansion"
+        },
+        "logo": "https://thebanks.eu/img/logos/Societe_de_Banque_et_dExpansion.png",
+        "colorTheme": "#e3eef6"
+    },
+    {
+        "name": { "long": "Société générale S.A.", "short": "Societe Generale" },
+        "logo": "https://thebanks.eu/img/logos/Societe_Generale.png",
+        "colorTheme": "#d0d0d0"
+    },
+    {
+        "name": { "long": "Socram banque", "short": "Socram Banque" },
+        "logo": "https://thebanks.eu/img/logos/Socram_Banque.png",
+        "colorTheme": "#a4a08b"
+    },
+    {
+        "name": { "long": "Stellantis Bank", "short": "Stellantis Bank" },
+        "logo": "https://thebanks.eu/img/logos/Stellantis_Bank.png",
+        "colorTheme": "#eff1f6"
+    },
+    {
+        "name": {
+            "long": "Stellantis Financial Services Europe",
+            "short": "Stellantis Financial Services"
+        },
+        "logo": "https://thebanks.eu/img/logos/Stellantis_Financial_Services.png",
+        "colorTheme": "#eff1f6"
+    },
+    {
+        "name": {
+            "long": "SwissLife banque privée",
+            "short": "SwissLife Banque Privee"
+        },
+        "logo": "https://thebanks.eu/img/logos/SwissLife_Banque_Privee.png",
+        "colorTheme": "#e6e3e3"
+    },
+    {
+        "name": { "long": "The Access Bank UK Limited", "short": "Access Bank" },
+        "logo": "https://thebanks.eu/img/logos/Access_Bank.png",
+        "colorTheme": "#dee5ef"
+    },
+    {
+        "name": { "long": "Tikka Bank", "short": "Tikka" },
+        "logo": "/assets/tikka-bank-logo.png",
+        "colorTheme": "#298BEA"
+    },
+    {
+        "name": {
+            "long": "Trade Republic Bank GmbH",
+            "short": "Trade Republic Bank"
+        },
+        "logo": "https://thebanks.eu/img/logos/Trade_Republic_Bank.png",
+        "colorTheme": "#989898"
+    },
+    {
+        "name": {
+            "long": "Transolver Finance S.a.",
+            "short": "Transolver Finance"
+        },
+        "logo": "https://thebanks.eu/img/logos/Transolver_Finance.png",
+        "colorTheme": "#9badc7"
+    },
+    {
+        "name": {
+            "long": "Tunisian foreign bank",
+            "short": "Tunisian Foreign Bank"
+        },
+        "logo": "https://thebanks.eu/img/logos/Tunisian_Foreign_Bank.png",
+        "colorTheme": "#575859"
+    },
+    {
+        "name": { "long": "UNION BANCAIRE PRIVEE, UBP SA", "short": "UBP" },
+        "logo": "https://thebanks.eu/img/logos/UBP.png",
+        "colorTheme": "#a2c3ac"
+    },
+    {
+        "name": {
+            "long": "Union de banques arabes et françaises - U.B.A.F.",
+            "short": "UBAF"
+        },
+        "logo": "https://thebanks.eu/img/logos/UBAF.png",
+        "colorTheme": "#ddd6ca"
+    },
+    {
+        "name": {
+            "long": "Union financière de France banque",
+            "short": "Union Financiere de France Banque"
+        },
+        "logo": "https://thebanks.eu/img/logos/Union_Financiere_de_France_Banque.png",
+        "colorTheme": "#f5eeed"
+    },
+    {
+        "name": {
+            "long": "Union financiere pour le developpement de l'economie cerealiere - unigrains",
+            "short": "Unigrains"
+        },
+        "logo": "https://thebanks.eu/img/logos/Unigrains.png",
+        "colorTheme": "#e8e8e8"
+    },
+    {
+        "name": { "long": "ZENITH BANK (UK) LIMITED", "short": "Zenith Bank" },
+        "logo": "https://thebanks.eu/img/logos/Zenith_Bank.png",
+        "colorTheme": "#f37276"
+    }
+]
