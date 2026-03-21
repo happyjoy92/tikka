@@ -10,7 +10,6 @@ const path_1 = __importDefault(require("path"));
 const promises_1 = __importDefault(require("fs/promises"));
 const ejs_1 = __importDefault(require("ejs"));
 const Otp_1 = __importDefault(require("../models/Otp"));
-const email_1 = require("./email");
 const OTP_TTL = 60 * 10;
 async function requestOtp(type, target) {
     const code = crypto_1.default.randomInt(100000, 999999).toString();
@@ -22,7 +21,6 @@ async function requestOtp(type, target) {
     if (type !== "email")
         return code;
     const html = await promises_1.default.readFile(path_1.default.join(process.cwd(), "templates", "otp.html"), "utf8");
-    console.log(html);
     const rendered = ejs_1.default.render(html, {
         logo_url: "https://tikka.app/assets/tikka-logo-square.png",
         message: "Use the code below to verify your identity and continue.",
@@ -31,12 +29,6 @@ async function requestOtp(type, target) {
         cta_link: "",
         support_link: "",
         year: new Date().getFullYear(),
-    });
-    console.log(rendered);
-    await (0, email_1.sendMail)({
-        to: target,
-        subject: "Your Tikka verification code",
-        html: rendered,
     });
     console.log(code);
     return code;

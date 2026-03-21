@@ -8,16 +8,14 @@ const nodemailer_1 = __importDefault(require("nodemailer"));
 const logger_1 = __importDefault(require("./logger"));
 const transporter = nodemailer_1.default.createTransport({
     host: process.env.SMTP_HOST,
-    port: 587,
-    secure: false,
+    port: 465,
+    secure: true,
     auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
     },
-    connectionTimeout: 10000,
 });
 async function sendMail({ to, subject, html, }) {
-    console.log("Sending mail");
     const info = await transporter.sendMail({
         from: `Tikka <${process.env.SMTP_USER}>`,
         to,
