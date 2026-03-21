@@ -8,7 +8,7 @@ const nodemailer_1 = __importDefault(require("nodemailer"));
 const logger_1 = __importDefault(require("./logger"));
 const transporter = nodemailer_1.default.createTransport({
     host: process.env.SMTP_HOST,
-    port: 465,
+    port: 587,
     secure: false,
     auth: {
         user: process.env.SMTP_USER,
