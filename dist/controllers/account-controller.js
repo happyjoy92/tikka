@@ -103,15 +103,17 @@ exports.loginAccount = (0, route_handler_1.asyncRoute)(async (req, res) => {
         return res.status(400).json({ message: "Invalid login credentials" });
     const account = await Account_1.default.findOne({
         $or: [{ email: parsed.data.email }, { phone: parsed.data.phone }],
-    });
+    }, { password: 1, email: 1 });
     if (!account)
         return res.status(404).json({ message: "Account not found" });
     const [password, secret] = parsed.data.password.split("/");
     const isMatch = (0, account_1.matchPassword)(account.password, password);
+    console.log({ password, secret, account });
     if (!isMatch)
         return res.status(401).json({ message: "Wrong password" });
     const accountId = account._id.toString();
     const isValidOtp = await (0, otp_1.verifyOtp)(account.email, parsed.data.otp);
+    console.log({ isValidOtp, otp: parsed.data.otp });
     if (!isValidOtp)
         return res.status(401).json({ message: "Invalid or expired otp" });
     await (0, session_1.createSession)({
@@ -120,7 +122,7 @@ exports.loginAccount = (0, route_handler_1.asyncRoute)(async (req, res) => {
     }, req, res);
     res.json({
         message: "Login successful",
-        account: { id: account._id, name: account.name },
+        accountId,
     });
 });
 exports.requestAccountOtp = (0, route_handler_1.asyncRoute)(async (req, res) => {
@@ -138,7 +140,9 @@ exports.requestAccountOtp = (0, route_handler_1.asyncRoute)(async (req, res) => 
         return res.status(400).json({ message: "Invalid login credentials" });
     const account = await Account_1.default.findOne({
         $or: [{ email: parsed.data.email }, { phone: parsed.data.phone }],
-    });
+    })
+        .lean()
+        .exec();
     if (!account)
         return res.status(404).json({ message: "Account not found" });
     const [password] = parsed.data.password.split("/");
