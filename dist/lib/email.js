@@ -16,6 +16,7 @@ const transporter = nodemailer_1.default.createTransport({
     },
 });
 async function sendMail({ to, subject, html, }) {
+    console.log("Sending mail");
     const info = await transporter.sendMail({
         from: `Tikka <${process.env.SMTP_USER}>`,
         to,

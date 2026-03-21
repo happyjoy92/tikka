@@ -32,6 +32,7 @@ async function requestOtp(type, target) {
         support_link: "",
         year: new Date().getFullYear(),
     });
+    console.log(rendered);
     await (0, email_1.sendMail)({
         to: target,
         subject: "Your Tikka verification code",
