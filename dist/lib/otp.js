@@ -7,7 +7,7 @@ exports.requestOtp = requestOtp;
 exports.verifyOtp = verifyOtp;
 const crypto_1 = __importDefault(require("crypto"));
 const Otp_1 = __importDefault(require("../models/Otp"));
-const OTP_TTL = 60 * 10;
+const OTP_TTL = 1000 * 60 * 10;
 async function requestOtp(type, target) {
     const code = crypto_1.default.randomInt(100000, 999999).toString();
     await Otp_1.default.create({
