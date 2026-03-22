@@ -21,6 +21,7 @@ async function generateTransactions(account) {
     const depositTxns = [];
     const transferTxns = [];
     let counter = await (0, transaction_1.getTransactionCounter)();
+    await (0, transaction_1.incrementTransactionCounter)(sysAccounts.length);
     for (const tx of transRecords) {
         const sysAccount = sysAccounts[Math.floor(Math.random() * sysAccounts.length)];
         const transactionId = (0, transaction_1.generateTransactionId)(counter);

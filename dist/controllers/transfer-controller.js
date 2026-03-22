@@ -299,9 +299,10 @@ exports.requestTransferOtp = (0, route_handler_1.asyncAuthRoute)(async (req, res
     const account = await Account_1.default.findById(accountId).lean().exec();
     if (!account)
         return res.status(404).json({ message: "Account not found" });
-    await (0, otp_1.requestOtp)("email", account.email);
+    const otp = await (0, otp_1.requestOtp)("email", account.email);
     res.json({
         message: "Otp request successful",
+        otp,
     });
 });
 exports.getCurrencyRates = (0, route_handler_1.asyncRoute)(async (req, res) => {
