@@ -87,22 +87,23 @@ app.get("/healthz", async (req, res) => {
         res.status(500).json({ ok: false });
     }
 });
-const logSchema = zod_1.z.object({
-    level: zod_1.z.enum(["info", "error", "warn", "debug"]),
-    message: zod_1.z.string().min(1).max(500),
-    meta: zod_1.z.record(zod_1.z.string(), zod_1.z.any()).optional(),
-    source: zod_1.z.string().optional(),
-    url: zod_1.z.string().optional(),
-    userAgent: zod_1.z.string().optional(),
-    timestamp: zod_1.z.string().optional(),
-});
 app.post("/log", (req, res) => {
+    const logSchema = zod_1.z.object({
+        level: zod_1.z.enum(["info", "error", "warn"]),
+        message: zod_1.z.string().min(1).max(500),
+        meta: zod_1.z.record(zod_1.z.string(), zod_1.z.any()).optional(),
+        source: zod_1.z.string().optional(),
+        url: zod_1.z.string().optional(),
+        userAgent: zod_1.z.string().optional(),
+        timestamp: zod_1.z.string().optional(),
+    });
     const parsed = logSchema.safeParse(req.body);
     if (!parsed.success) {
         return res.status(400).json({
             message: "Invalid log payload",
         });
     }
+    console.log(parsed.data);
     const { level, message, meta, ...rest } = parsed.data;
     const logFn = logger_1.default[level] || logger_1.default.info;
     logFn(message, {
