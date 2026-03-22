@@ -40,7 +40,6 @@ exports.registerChat = (0, socket_1.asyncHandler)(async (socket) => {
             .lean()
             .exec();
         const pushes = pushTokens.map((pt) => pt.token);
-        console.log(pushes);
         pushes.forEach((token) => {
             (0, push_1.sendPush)(token, {
                 title: "Customer Support",

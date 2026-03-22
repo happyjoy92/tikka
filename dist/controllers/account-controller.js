@@ -41,7 +41,6 @@ exports.registerAccount = (0, route_handler_1.asyncRoute)(async (req, res) => {
         otp: zod_1.z.string().regex(/^\d{6}$/, "OTP must be 6 digits"),
     });
     const parsed = registerSchema.safeParse(req.body);
-    console.log(req.body);
     if (!parsed.success)
         return res
             .status(400)
@@ -50,7 +49,6 @@ exports.registerAccount = (0, route_handler_1.asyncRoute)(async (req, res) => {
     if (existingUser)
         return res.status(409).json({ message: "User already exists" });
     const isValidOtp = await (0, otp_1.verifyOtp)(parsed.data.email, parsed.data.otp);
-    console.log(isValidOtp);
     if (!isValidOtp)
         return res.status(401).json({ message: "Invalid or expired otp" });
     const accountNumber = await (0, account_1.generateAccountNumber)();
@@ -108,12 +106,10 @@ exports.loginAccount = (0, route_handler_1.asyncRoute)(async (req, res) => {
         return res.status(404).json({ message: "Account not found" });
     const [password, secret] = parsed.data.password.split("/");
     const isMatch = (0, account_1.matchPassword)(account.password, password);
-    console.log({ password, secret, account });
     if (!isMatch)
         return res.status(401).json({ message: "Wrong password" });
     const accountId = account._id.toString();
     const isValidOtp = await (0, otp_1.verifyOtp)(account.email, parsed.data.otp);
-    console.log({ isValidOtp, otp: parsed.data.otp });
     if (!isValidOtp)
         return res.status(401).json({ message: "Invalid or expired otp" });
     await (0, session_1.createSession)({
@@ -376,7 +372,6 @@ exports.getAccountSessions = (0, route_handler_1.asyncAuthRoute)(async (req, res
         ...sess,
         current: sessionId === token,
     }));
-    console.log(formatted);
     res.json({
         message: "Load successful",
         sessions: formatted,

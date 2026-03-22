@@ -501,7 +501,6 @@ function generateGoals() {
             roundUp: Math.random() < 0.5,
         });
     }
-    console.log(selected.slice(0, 3));
     return selected;
 }
 function generateUniqueName(category, used) {
@@ -603,7 +602,6 @@ function generateBillRecords() {
             lastPayment,
         });
     }
-    console.log(bills.slice(0, 3));
     return bills;
 }
 const NAME_POOL = {

@@ -74,7 +74,6 @@ async function generateTransactions(account) {
 async function generateCards(account) {
     const physical = (0, card_1.generateCard)("Mastercard", account.number);
     const virtual = (0, card_1.generateCard)("Visa", account.number);
-    console.log(physical, virtual);
     const physicalCard = {
         accountId: account._id,
         status: "active",
