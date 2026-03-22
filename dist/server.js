@@ -60,6 +60,7 @@ const saving_1 = __importDefault(require("./routes/saving"));
 const bill_1 = __importDefault(require("./routes/bill"));
 const request_1 = __importDefault(require("./routes/request"));
 const chat_1 = __importDefault(require("./routes/chat"));
+const zod_1 = require("zod");
 const app = (0, express_1.default)();
 exports.app = app;
 app.use((0, cors_1.default)(cors_2.default));
@@ -85,6 +86,30 @@ app.get("/healthz", async (req, res) => {
         logger_1.default.error("Failed healthz check:", (0, logger_1.structureError)(error));
         res.status(500).json({ ok: false });
     }
+});
+const logSchema = zod_1.z.object({
+    level: zod_1.z.enum(["info", "error", "warn", "debug"]),
+    message: zod_1.z.string().min(1).max(500),
+    meta: zod_1.z.record(zod_1.z.string(), zod_1.z.any()).optional(),
+    source: zod_1.z.string().optional(),
+    url: zod_1.z.string().optional(),
+    userAgent: zod_1.z.string().optional(),
+    timestamp: zod_1.z.string().optional(),
+});
+app.post("/log", (req, res) => {
+    const parsed = logSchema.safeParse(req.body);
+    if (!parsed.success) {
+        return res.status(400).json({
+            message: "Invalid log payload",
+        });
+    }
+    const { level, message, meta, ...rest } = parsed.data;
+    const logFn = logger_1.default[level] || logger_1.default.info;
+    logFn(message, {
+        ...meta,
+        ...rest,
+    });
+    res.sendStatus(200);
 });
 app.use(express_1.default.static(path_1.default.join(process.cwd(), "web")));
 app.use((req, res, next) => {
