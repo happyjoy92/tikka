@@ -21,9 +21,9 @@ async function requestOtp(type, target) {
     return code;
 }
 async function verifyOtp(target, code) {
-    const otp = await Otp_1.default.findOneAndDelete({ target, code });
-    if (!otp)
-        return false;
-    return true;
+    const exists = await Otp_1.default.exists({ target, code });
+    if (exists)
+        Otp_1.default.deleteOne({ target, code });
+    return exists;
 }
 //# sourceMappingURL=otp.js.map
