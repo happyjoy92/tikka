@@ -36,6 +36,7 @@ exports.sendMoney = (0, route_handler_1.asyncAuthRoute)(async (req, res) => {
     });
     const session = req.session;
     const parsedTransfer = transferSchema.safeParse(req.body);
+    console.log({ data: parsedTransfer.data });
     if (!parsedTransfer.success)
         return res.status(400).json({ message: "Missing transaction fields" });
     if (parsedTransfer.data.speed === "scheduled" &&
@@ -95,6 +96,7 @@ exports.sendMoney = (0, route_handler_1.asyncAuthRoute)(async (req, res) => {
         });
     if (parsedTransfer.data.amount > 1000) {
         const verified = await (0, otp_1.verifyOtp)(senderAccount.email, parsedTransfer.data.otp);
+        console.log({ verified });
         if (!verified)
             return res.status(403).json({
                 message: "Incorrect otp",
