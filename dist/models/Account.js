@@ -133,6 +133,11 @@ const accountSchema = new mongoose_1.default.Schema({
         enum: ["passport", "dl"],
         default: "passport",
     },
+    gender: {
+        type: String,
+        enum: ["m", "f"],
+        default: "m",
+    },
     password: {
         type: String,
         required: true,
