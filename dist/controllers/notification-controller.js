@@ -10,12 +10,7 @@ exports.getNotifications = (0, route_handler_1.asyncAuthRoute)(async (req, res) 
     const notifications = await Notification_1.Notification.find({
         accountId: session.accountId,
     })
-        .populate("transaction", {
-        amount: 1,
-        category: 1,
-        mode: 1,
-        currency: 1,
-    })
+        .populate("transaction", "amount category mode currency")
         .sort({ createdAt: -1 })
         .limit(PAGE_SIZE)
         .lean()
