@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const corsOptions = {
     credentials: true,
-    origin: ["https://tikka-oa4x.onrender.com", "https://tikka.app"],
+    origin: ["https://tikka.app", "https://www.tikka.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "Accept"],
     exposedHeaders: ["Set-Cookie"],

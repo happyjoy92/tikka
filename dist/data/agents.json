@@ -9,19 +9,19 @@
     },
     {
         "name": {
-            "first": "Thomas",
-            "last": "Laurent"
-        },
-        "role": "customer",
-        "avatar": "thomas_laurent"
-    },
-    {
-        "name": {
             "first": "Amina",
             "last": "Benali"
         },
         "role": "account",
         "avatar": "amina_benali"
+    },
+    {
+        "name": {
+            "first": "Sofia",
+            "last": "Martins"
+        },
+        "role": "care",
+        "avatar": "sofia_martins"
     },
     {
         "name": {
@@ -33,10 +33,10 @@
     },
     {
         "name": {
-            "first": "Sofia",
-            "last": "Martins"
+            "first": "Thomas",
+            "last": "Laurent"
         },
-        "role": "care",
-        "avatar": "sofia_martins"
+        "role": "customer",
+        "avatar": "thomas_laurent"
     }
 ]
