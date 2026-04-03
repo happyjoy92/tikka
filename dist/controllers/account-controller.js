@@ -162,7 +162,6 @@ exports.updateAccount = (0, route_handler_1.asyncAuthRoute)(async (req, res) => 
         address: zod_1.z.string(),
         oldPassword: zod_1.z.string().optional(),
         newPassword: zod_1.z.string().optional(),
-        otp: zod_1.z.string(),
     })
         .transform(({ firstName, middleName, lastName, oldPassword, newPassword, ...update }) => ({
         ...update,
@@ -185,9 +184,6 @@ exports.updateAccount = (0, route_handler_1.asyncAuthRoute)(async (req, res) => 
         .exec();
     if (!account)
         return res.status(404).json({ message: "Account not found" });
-    const isValidOtp = await (0, otp_1.verifyOtp)(account.email, parsed.data.otp);
-    if (!isValidOtp)
-        return res.status(401).json({ message: "Invalid or expired otp" });
     const { password, ...updateData } = parsed.data;
     if (password.old && account.password !== password.old)
         return res.status(403).json({ message: "Incorrect password" });
