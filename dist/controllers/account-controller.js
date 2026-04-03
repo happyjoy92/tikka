@@ -162,6 +162,7 @@ exports.updateAccount = (0, route_handler_1.asyncAuthRoute)(async (req, res) => 
         address: zod_1.z.string(),
         oldPassword: zod_1.z.string().optional(),
         newPassword: zod_1.z.string().optional(),
+        otp: zod_1.z.string(),
     })
         .transform(({ firstName, middleName, lastName, oldPassword, newPassword, ...update }) => ({
         ...update,
@@ -179,6 +180,22 @@ exports.updateAccount = (0, route_handler_1.asyncAuthRoute)(async (req, res) => 
     const parsed = updateSchema.safeParse(req.body);
     if (!parsed.success)
         return res.status(400).json({ message: "Invalid payload" });
+    const account = await Account_1.default.findOne({ _id: session.accountId }, { password: 1 })
+        .lean()
+        .exec();
+    if (!account)
+        return res.status(404).json({ message: "Account not found" });
+    const isValidOtp = await (0, otp_1.verifyOtp)(account.email, parsed.data.otp);
+    if (!isValidOtp)
+        return res.status(401).json({ message: "Invalid or expired otp" });
+    const { password, ...updateData } = parsed.data;
+    if (password.old && account.password !== password.old)
+        return res.status(403).json({ message: "Incorrect password" });
+    const update = {
+        ...updateData,
+    };
+    if (password.new)
+        update.password = password.new;
     let image;
     if (req.file) {
         const avatarSize = 128;
@@ -196,23 +213,10 @@ exports.updateAccount = (0, route_handler_1.asyncAuthRoute)(async (req, res) => 
             dimensions: [avatarSize, avatarSize],
         };
     }
-    const account = await Account_1.default.findOne({ _id: session.accountId }, { password: 1 })
-        .lean()
-        .exec();
-    if (!account)
-        return res.status(404).json({ message: "Account not found" });
-    const { password, ...updateData } = parsed.data;
-    if (password.old && account.password !== password.old)
-        return res.status(403).json({ message: "Incorrect password" });
-    const update = {
-        ...updateData,
-    };
-    if (password.new)
-        update.password = password.new;
     if (image)
         update.image = image;
     await Account_1.default.updateOne({ _id: session.accountId }, update).lean().exec();
-    if (password) {
+    if (password.new) {
         await Notification_1.SecurityNotification.create({
             accountId: session.accountId,
             priority: "medium",
